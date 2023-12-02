@@ -14,7 +14,7 @@ Add in apparmor.d/system_tor:
 	&emsp;/var/opt/tor rw,  
   
 ### Systemd Service
-Add in systemd tor@&#65279;default.service:  
+Add in tor@&#65279;default.service (/usr/lib/systemd/system/):  
 	&emsp;ExecStartPre=/usr/bin/install -Z -m 750 -o debian-tor -g debian-tor -d /var/opt/tor/service  
 	&emsp;ReadWriteDirectories=-/var/opt/tor/  
 **Note:** *If you want to use* **/tmp**_,_ **/home**_,_ *or something like this, you may have to modify* **PrivateTmp** *or* **ProtectHome**_._  
@@ -31,5 +31,5 @@ Runs these commands:
 	&emsp;systemctl daemon-reload  
 	&emsp;mount /var/opt/tor/service  
 	&emsp;systemctl reload apparmor  
-	&emsp;systemctl start tor@&#65279;default
+	&emsp;systemctl restart tor
 
