@@ -27,7 +27,7 @@ Modify torrc:
 	&emsp;HiddenServiceDirGroupReadable 1  
 
 ### At Last
-Run these commands:  
+Runs these commands:  
 	&emsp;systemctl daemon-reload  
 	&emsp;mount /var/opt/tor/service  
 	&emsp;systemctl reload apparmor  
