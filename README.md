@@ -6,7 +6,7 @@ Create a directory:
 Add in fstab:  
 	&ensp;tmpfs /var/opt/tor/service tmpfs defaults,size=32M 0 0  
 Mount it:  
-	&ensp;mount /var/opt/service  
+	&ensp;mount /var/opt/tor/service  
   
 Add in apparmor.d/system_tor:  
 	&ensp;/var/opt/tor/** rw,  
