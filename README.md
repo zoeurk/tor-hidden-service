@@ -12,7 +12,7 @@ Add in apparmor.d/system_tor:
 	&ensp;/var/opt/tor/** rw,  
 	&ensp;/var/opt/tor rw,  
   
-Add in systemd tor\@default.service:  
+Add in systemd tor\@&#65279;default.service:  
 	&ensp;ExecStartPre=/usr/bin/install -Z -m 750 -o debian-tor -g debian-tor -d /var/opt/tor/service  
 	&ensp;ReadWriteDirectories=/var/opt/tor/  
   
