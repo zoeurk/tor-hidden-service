@@ -1,8 +1,8 @@
 ##	Tor hidden service on a tmpfs filesystem (ubuntu[/debian])
   
 ### Introduction
-Here, I show how to create an hidden service in the directory "_/var/opt/tor_".  
-From this tutorial you can create an hidden service outside the directory "_/var/lib/tor/_".  
+Here, I show how to create an hidden service in the directory " _/var/opt/tor_ ".  
+From this tutorial you can create an hidden service outside the directory " _/var/lib/tor/_ ".  
 
 ### Working Directory
 Create a directory:  
