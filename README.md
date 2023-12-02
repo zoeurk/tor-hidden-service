@@ -2,7 +2,7 @@
   
 ### Introduction
 Here, I show how to create an hidden service in the directory "_/var/opt/tor_".  
-From this tutorial you can create an hidden service a directory different of "_/var/lib/tor_".  
+From this tutorial you can create an hidden service a directory different of "_/var/lib/tor/hidden_service_".  
 
 ### Working Directory
 Create a directory:  
