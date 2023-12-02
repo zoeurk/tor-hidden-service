@@ -27,7 +27,7 @@ Add in tor@&#65279;default.service (/usr/lib/systemd/system/):
 Modify torrc:  
 	&emsp;HiddenServiceDir /var/opt/tor/service  
 	&emsp;HiddenServicePort 80 127.0.0.1:80  
-	&emsp;HiddenServiceDirGroupReadable 1  
+	&emsp;HiddenServiceDirGroupReadable 1 #**add this line after hidden services declaration.**  
 
 ### At Last
 Runs these commands:  
