@@ -30,6 +30,6 @@ Modify torrc:
 Run these commands:  
 	&emsp;systemctl daemon-reload  
 	&emsp;mount /var/opt/tor/service  
-	&emsp;systemctl reload apparmor
+	&emsp;systemctl reload apparmor  
 	&emsp;systemctl start tor@&#65279;default
 
