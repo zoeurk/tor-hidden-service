@@ -1,4 +1,4 @@
-	Tor hidden service on a tmpfs filesystem  
+	Tor hidden service on a tmpfs filesystem (ubuntu[/debian])
   
 Create a directory:  
 	&ensp;mkdir /var/opt/tor  
