@@ -26,9 +26,9 @@ Modify torrc:
 	&emsp;HiddenServicePort 8080 127.0.0.1:8080  
 	&emsp;HiddenServiceDirGroupReadable 1  
 
-### Commands  
+### Commands
 	&emsp;systemctl daemon-reload  
 	&emsp;mount /var/opt/tor/service  
-	systemctl reload apparmor
-	systemctl start tor\@&#65279;default
+	&emsp;systemctl reload apparmor
+	&emsp;systemctl start tor@&#65279;default
 
