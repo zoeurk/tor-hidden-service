@@ -2,8 +2,7 @@
   
 ### Working Directory
 Create a directory:  
-	&emsp;mkdir /var/opt/tor  
-	&emsp;chmod 750 /var/opt/tor  
+	&emsp;mkdir -m 750 /var/opt/tor  
   
 ### Hidden Service Directory
 Add in fstab:  
