@@ -20,7 +20,7 @@ Add in apparmor.d/system_tor:
 Add in systemd tor\@&#65279;default.service:  
 	&ensp;ExecStartPre=/usr/bin/install -Z -m 750 -o debian-tor -g debian-tor -d /var/opt/tor/service  
 	&ensp;ReadWriteDirectories=/var/opt/tor/  
-**Note:** *If you want to use /tmp, /home, or something like this, you may have to modify PrivateTmp or ProtectHome.*  
+**Note:** *If you want to use /tmp, /home, or something like this, you may have to modify* **PrivateTmp** *or* **ProtectHome***.*  
   
 ### The Hidden Service Itself
 Modify torrc:  
