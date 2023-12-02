@@ -16,7 +16,7 @@ Add in apparmor.d/system_tor:
 ### Systemd Service
 Add in systemd tor@&#65279;default.service:  
 	&emsp;ExecStartPre=/usr/bin/install -Z -m 750 -o debian-tor -g debian-tor -d /var/opt/tor/service  
-	&emsp;ReadWriteDirectories=/var/opt/tor/  
+	&emsp;ReadWriteDirectories=-/var/opt/tor/  
 **Note:** *If you want to use* **/tmp**_,_ **/home**_,_ *or something like this, you may have to modify* **PrivateTmp** *or* **ProtectHome**_._  
   
 ### The Hidden Service Itself
