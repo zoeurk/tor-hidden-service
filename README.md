@@ -30,6 +30,6 @@ Modify torrc:
 Runs these commands:  
 	&emsp;systemctl daemon-reload  
 	&emsp;mount /var/opt/tor/service  
-	&emsp;systemctl reload apparmor  
-	&emsp;systemctl reload tor
+	&emsp;systemctl restart apparmor  
+	&emsp;systemctl restart tor
 
