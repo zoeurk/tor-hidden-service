@@ -1,11 +1,11 @@
-	&emsp;Tor hidden service on a tmpfs filesystem  
+	Tor hidden service on a tmpfs filesystem  
   
 Create a directory:  
 	&ensp;mkdir /var/opt/tor  
   
 Add in fstab:  
 	&ensp;tmpfs /var/opt/tor/service tmpfs defaults,size=32M 0 0  
-Mount it:
+Mount it:  
 	&ensp;mount /var/opt/service  
   
 Add in apparmor.d/system_tor:  
