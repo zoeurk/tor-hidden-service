@@ -1,5 +1,9 @@
 ##	Tor hidden service on a tmpfs filesystem (ubuntu[/debian])
   
+### Introduction
+Here, I show how to create an hidden service in a directory named /var/opt/tor.  
+From this tutorial you can create an hidden service the directory /var/lib/tor.  
+
 ### Working Directory
 Create a directory:  
 	&emsp;mkdir -m 750 /var/opt/tor  
@@ -23,7 +27,6 @@ Add in tor@&#65279;default.service (/usr/lib/systemd/system/):
 Modify torrc:  
 	&emsp;HiddenServiceDir /var/opt/tor/service  
 	&emsp;HiddenServicePort 80 127.0.0.1:80  
-	&emsp;HiddenServicePort 8080 127.0.0.1:8080  
 	&emsp;HiddenServiceDirGroupReadable 1  
 
 ### At Last
