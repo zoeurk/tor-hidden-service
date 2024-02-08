@@ -39,4 +39,4 @@ Runs these commands:
 Now you are not just able to create an hidden service outside "_/var/lib/tor/_".  
 In fact,  
 	&emsp;if you have understand how to configure **tor** (through _torrc_ for exemple), **apparmor** and **systemd**,  
-you can now create differents instance of tor at boot time.
+you can now create differents instances of **_tor_** at boot time.
