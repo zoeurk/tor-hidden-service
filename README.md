@@ -35,7 +35,7 @@ Runs these commands:
 	&emsp;mount /var/opt/tor/service  
 	&emsp;systemctl restart apparmor  
 	&emsp;systemctl restart tor _(or tor@default)_
-### So...
+### So for tor...
 Now you are not just able to create an hidden service outside "_/var/lib/tor/_".  
 In fact,  
 	&emsp;if you have understand how to configure **tor** (through _torrc_ for exemple), **apparmor** and **systemd**,  
