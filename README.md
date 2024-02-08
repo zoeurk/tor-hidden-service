@@ -38,5 +38,5 @@ Runs these commands:
 ### So...
 Now you are not just able to create an hidden service outside "_/var/lib/tor/_".  
 In fact,  
-	&emsp;if you have understand how to configure **tor** (through torrc for exemple), **apparmor** and **systemd**,  
+	&emsp;if you have understand how to configure **tor** (through _torrc_ for exemple), **apparmor** and **systemd**,  
 you can now create differents instance of tor at boot time.
