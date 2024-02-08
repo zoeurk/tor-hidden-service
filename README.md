@@ -34,7 +34,7 @@ Runs these commands:
 	&emsp;systemctl daemon-reload  
 	&emsp;mount /var/opt/tor/service  
 	&emsp;systemctl restart apparmor  
-	&emsp;systemctl restart tor
+	&emsp;systemctl restart tor _(or tor@default)_
 ### So...
 Now you are not just able to create an hidden service outside "_/var/lib/tor/_".  
 In fact,  
