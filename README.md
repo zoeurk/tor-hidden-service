@@ -37,6 +37,6 @@ Runs these commands:
 	&emsp;systemctl restart tor _(or tor@default)_
 ### So for tor...
 Now you are not just able to create an hidden service outside "_/var/lib/tor/_".  
-In fact,  
+In fact:  
 	&emsp;if you have understand how to configure **tor** (through _torrc_ for exemple), **apparmor** and **systemd**,  
-you can create differents instances of **_tor_** at boot time.
+you can create differents instance of **_tor_** at boot time.
