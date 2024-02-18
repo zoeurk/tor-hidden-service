@@ -47,5 +47,5 @@ you may(/can) also want to play with your firewall and virtual network interface
 For exemple you can do somthing like this:  
 	&emsp;ORPort 443 NoListen  
 	&emsp;ORPort 9090 NoAdvertise  
-You need to do a Network Address Translation (**NAT**):
+You need to do a Network Address Translation (**NAT**):  
 	&emsp;443 -> 9090
