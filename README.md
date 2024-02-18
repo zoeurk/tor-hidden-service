@@ -38,5 +38,14 @@ Runs these commands:
 ### So for tor...
 Now you are not just able to create an hidden service outside "_/var/lib/tor/_".  
 In fact:  
-	&emsp;if you have understand how to configure **tor** (through _torrc_ for exemple), **apparmor** and **systemd**,  
+	&emsp;If you have understand how to configure **tor** (through _torrc_ for exemple), **apparmor** and **systemd**,  
 you can create differents instance of **_tor_** at boot time.
+
+### End now
+If you create differents instance of **tor**,  
+you may(/can) also want to play with your firewall and virtual network interface.  
+For exemple you can do somthing like this:  
+	&emsp;ORPort 443 NoListen  
+	&emsp;ORPort 9090 NoAdvertise  
+You need to do a Network Address Translation (**NAT**):
+	&emsp;443 -> 9090
