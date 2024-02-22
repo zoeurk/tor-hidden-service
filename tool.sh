@@ -22,7 +22,8 @@ then
 	printf "Error: $TOR_DIR don't exist\n"
 	exit
 fi
-cd $TOR_DIR
+test -d $TOR_DIR/tor-tool || mkdir $TOR_DIR/tor-tool
+cd $TOR_DIR/tor-tool
 if test "$1" = "-i"
 then
 	OPT="-i"
