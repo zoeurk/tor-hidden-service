@@ -49,3 +49,6 @@ For exemple you can do somthing like this:
 	&emsp;ORPort 9090 NoAdvertise  
 You need to do a Network Address Translation (**NAT**):  
 	&emsp;443 -> 9090
+
+### If you want
+I do this script for exclude nodes, you should modify it for your usage.
