@@ -51,7 +51,7 @@ do
 done
 if test "$OPT" = "-i"
 then
-	logrotate -f /etc/logrotate.d/tor
-	printf "You need to restart, reload... tor\n"
+	logrotate -f $TOR_ROTATE_CNF || printf "logrotate failure\n"
+	printf "You may need to restart, reload... tor\n"
 fi
 cd $CURRENT_DIR
