@@ -6,5 +6,7 @@ Il faut:
 Il manque:
 	- Le(s) script(s) pour éteindre proprement les machines
 	- Le(s) script(s) annonçant que tor, ssh... Ont démarré
+Peut-être:
+	- Le script/service online.(sh|service) ne fonctionne pas
 
 Enjoy :)
