@@ -50,5 +50,6 @@ For exemple you can do somthing like this:
 You need to do a Network Address Translation (**NAT**):  
 	&emsp;443 -> 9090
 
-### If you want
-I do this script for exclude nodes, you should modify it for your usage.
+### Play With Tor
+Be enjoy with some virtuals machines :))  
+See in Tor.VMs directory

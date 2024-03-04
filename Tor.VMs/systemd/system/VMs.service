@@ -1,0 +1,14 @@
+[Unit]
+Description=VM(s) launched
+After=online.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/sbin/VMs.sh
+#ExecStart=/bin/true
+#NotifyAccess=all
+
+[Install]
+WantedBy=multi-user.target
+

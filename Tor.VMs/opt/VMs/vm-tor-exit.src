@@ -1,0 +1,22 @@
+qemu-system-x86_64 \
+	-nodefaults \
+	-daemonize \
+	-cpu kvm64 \
+	-smp cpus=1,cores=2,threads=4,maxcpus=8,sockets=1 \
+	-rtc base=localtime,clock=host \
+	-watchdog ib700 \
+	-chardev pipe,id=tor-exit,path=/home/VMs/VM/tor-exit/fifo \
+	-serial chardev:tor-exit \
+	-vga none \
+	-drive file=/home/VMs/VM/debian-tor2.img,format=raw \
+	-m 512M \
+	-object memory-backend-ram,id=mem,merge=off,dump=off,share=off,prealloc=on,size=512M,host-nodes=0,policy=bind \
+	-numa node,memdev=mem,cpus=0-3,nodeid=0 \
+	-numa cpu,node-id=0,socket-id=0 \
+	-netdev tap,id=Mephistopheles,ifname=Mephistopheles,script=no \
+	-device e1000,netdev=Mephistopheles \
+	-boot c \
+	-no-hpet \
+	-display none \
+	-pidfile /run/tor-exit.pid \
+	-runas VMs

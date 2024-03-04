@@ -1,0 +1,8 @@
+Il faut:
+
+	- Créer les tubes fifo (fifo.in, fifo.out)
+	- Adapter les fichiers sources de qemu
+	- Modifier le fichier online.service (modifier l'argument du script)
+Il manque le(s) script(s) pour éteindre proprement les machines
+
+Enjoy :)

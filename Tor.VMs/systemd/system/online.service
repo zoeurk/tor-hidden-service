@@ -1,0 +1,14 @@
+[Unit]
+Description=Online Ok
+After=network-online.target nss-lookup.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/sbin/online.sh XXX.XXX.XXX.XXX
+#ExecStart=/bin/true
+#NotifyAccess=all
+
+[Install]
+WantedBy=multi-user.target
+
