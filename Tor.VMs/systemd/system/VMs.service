@@ -3,7 +3,7 @@ Description=VM(s) launched
 After=online.target
 
 [Service]
-Type=oneshot
+Type=exec
 RemainAfterExit=yes
 ExecStart=/sbin/VMs.sh
 #ExecStop=
