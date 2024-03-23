@@ -53,3 +53,10 @@ You need to do a Network Address Translation (**NAT**):
 ### Play With Tor
 Be enjoy with some virtuals machines :))  
 See in Tor.VMs directory
+
+### No Goal
+With VMs and Tor you can learn about: virtual Network Interface, dhcp, and why not DNS (maybe more but I dont see)  
+Tor is very good for learning.  
+But you must know:  
+- If you have a small machine you may can't publish your bridge... :/  
+Enjoy with Tor :)
