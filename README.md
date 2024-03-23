@@ -58,5 +58,5 @@ See in Tor.VMs directory
 With VMs and Tor you can learn about: virtual Network Interface, dhcp, and why not DNS (maybe more but I dont see)  
 Tor is very good for learning.  
 But you must know:  
-- If you have a small machine you may can't publish your bridge... :/  
+- If you have a small machine you may can't publish your bridge... (tor network will maybe be overloaded):/  
 Enjoy with Tor :)
