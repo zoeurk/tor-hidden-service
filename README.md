@@ -55,7 +55,7 @@ Be enjoy with some virtuals machines :))
 See in Tor.VMs directory
 
 ### No Goal
-With VMs and Tor you can learn about: _virtual network interface_, _dhcp_, and why not _DNS_ (maybe more but I dont see)  
+With VMs and Tor you can learn about: _virtual network interface_, _dhcp_, and why not _DNS_ (maybe more but I don't see)  
 Tor is very good for learning.  
   
 Enjoy with Tor :)
