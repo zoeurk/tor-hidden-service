@@ -36,7 +36,7 @@ Runs these commands:
 	&emsp;systemctl daemon-reload  
 	&emsp;mount /var/opt/tor/service  
 	&emsp;systemctl restart apparmor  
-	&emsp;systemctl stop tor _(or tor@default)_ (_after ?reflexion?_)  
+	&emsp;&esmp;systemctl start tor _(or tor@default)_ (_after ?reflexion?_)  
 	&emsp;or
 	&esmp;systemctl restart tor _(or tor@default)_
 ### So for tor...
