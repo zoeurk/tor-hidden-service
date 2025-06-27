@@ -18,6 +18,8 @@ Add in apparmor.d/system_tor:
 	&emsp;/var/opt/tor rw,  
   
 ### Systemd Service
+First:
+	&emsp;systemctl stop tor _(or tor@default)_ __after ?reflexion?__
 Add in tor@&#65279;default.service (/usr/lib/systemd/system/):  
 	&emsp;ExecStartPre=/usr/bin/install -Z -m 750 -o debian-tor -g debian-tor -d /var/opt/tor/service  
 	&emsp;ReadWriteDirectories=-/var/opt/tor/  
@@ -34,7 +36,9 @@ Runs these commands:
 	&emsp;systemctl daemon-reload  
 	&emsp;mount /var/opt/tor/service  
 	&emsp;systemctl restart apparmor  
-	&emsp;systemctl restart tor _(or tor@default)_
+	&emsp;systemctl stop tor _(or tor@default)_ __after ?reflexion?__
+	&emsp;or
+	&esmp;systemctl restart tor _(or tor@default)_
 ### So for tor...
 Now you are not just able to create an hidden service outside "_/var/lib/tor/_".  
 In fact:  
